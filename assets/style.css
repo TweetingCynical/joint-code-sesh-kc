@@ -1,0 +1,64 @@
+/* Bottom row parent styling */
+.bottom_row {
+    display: flex;
+    border: 2px solid red;
+    background-color: lightgray;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+/* Bottom row child styling */
+.bottom_row_item {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    margin: 20px;
+    flex-direction: column;
+    border: 2px solid skyblue;
+} 
+
+/* Child content styling */
+.child_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: 2px black solid;
+    background-color: white;
+    font-size: 20px;
+    width: 80%;
+}
+
+.child_casing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 97%;
+    border: 2px black solid;
+    background-color: none;
+    font-size: 20px;
+    width: 90%;
+}
+
+.child_content_nobox {
+    display: flex;
+    align-items: flex-start;
+    height: 55%;
+    width: 90%;
+    font-size: 20px;
+    margin: 5px, 5px;
+    padding: 5px;
+}
+
+.child_content_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 90%;
+    border: 2px black solid;
+    background-color: darkgrey;
+    font-size: 20px;
+    margin: 5px, 5px;
+    padding: 5px;
+}
