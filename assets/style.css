@@ -76,24 +76,23 @@ nav {
 }
 
 .child_content_nobox {
-    display: flex;
     align-items: flex-start;
     height: 55%;
-    width: 90%;
-    font-size: 20px;
-    margin: 5px, 5px;
-    padding: 5px;
 }
 
 .child_content_box {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 30%;
-    width: 90%;
     border: 2px black solid;
     background-color: darkgrey;
+
+}
+
+.child_content_box, .child_content_nobox {
+    display: flex;
     font-size: 20px;
     margin: 5px, 5px;
     padding: 5px;
+    width: 90%;
 }
