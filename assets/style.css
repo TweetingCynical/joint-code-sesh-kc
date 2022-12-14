@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    background-color: gray;
+}
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#into {
+    text-align: center;
+    font-size: medium;
+}
+.flextop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid black;
+    height: 200px;
+}
+.flexitem {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 30%;
+}
+.endbox {
+    display: flex;
+    border: 2px solid black;
+}
+
